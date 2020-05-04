@@ -1,0 +1,28 @@
+
+$active-text-color: #4A90E2;
+$animation-duration: 300ms;
+$border-color-disabled: #bbb;
+$border-color-hover: #777;
+$border-color: #999;
+$border-color-light: lighten($border-color,25%);
+$border-radius: 4px;
+$box-shadow-color: rgba(0, 0, 0, .5);
+$button-active-bg: #eee;
+$button-bg: white;
+$button-height: 32px;
+$disabled-color: #9999;
+$font-color: #333;
+$font-size: 14px;
+$grey: #ddd;
+$height: 32px;
+$red: #f1453d;
+$tips-color: green;
+$toast-bg: rgba(0,0,0,0.74);
+$toast-min-height: 40px;
+.box-shadow {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+@keyframes spin {
+  0% {transform: rotate(0deg); }
+  100% {transform: rotate(360deg); }
+}
